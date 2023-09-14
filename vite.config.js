@@ -2,12 +2,13 @@ import { resolve } from "path";
 import { defineConfig } from "vite";
 
 export default defineConfig({
+  base: "/",
   server: {
     port: 3004,
   },
   resolve: {
     alias: {
-      "~": resolve(__dirname, "src"),
+      "~": resolve(__dirname, "js"),
     },
     extensions: [".js", ".css"],
   },
