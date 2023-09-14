@@ -58,8 +58,9 @@
     <link rel="stylesheet" href="css/swiper.css" />
     <link rel="stylesheet" href="css/magnific-popup.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/new.css" />
     <link rel="icon" href="img/favicon.svg" />
-    <script type="module" src="js/swiper.js"></script>
+    <script src="js/swiper.js"></script>
   </head>
   <body>
     <header class="head-inner">
@@ -844,8 +845,46 @@
           </div>
           <div class="confirm-card mb55-45" id="el-0">
             <div class="row align-items-center">
-              <div class="col-lg-6 col-12">
+              <div class="col-lg-6 col-12 confirm-card-wrapper">
                 <div class="confirm-card-right">
+                  <div class="confirm-instruction-wrapper">
+                    <svg
+                      class="confirm-instruction-icon"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_2901_809)">
+                        <path
+                          d="M11.8 1H8.8L8.2 3.4L5.8 5.2L2.8 4L1 7L3.4 8.8V11.2L1 13.6L2.8 16L5.2 14.8L7.6 16L8.2 19H11.8V16L14.8 14.8L17.2 16L19 13L16.6 11.2V8.8L19 6.4L17.2 4L14.8 5.2L12.4 4L11.8 1Z"
+                          fill="#5A5A5B"
+                        />
+                        <path
+                          d="M8.55379 20C8.06202 20 7.64325 19.6425 7.56615 19.1568L7.2 16.85C6.88333 16.7333 6.55 16.575 6.2 16.375C5.85 16.175 5.54167 15.9667 5.275 15.75L3.15872 16.7185C2.68703 16.9343 2.1286 16.7537 1.87273 16.3024L0.439277 13.7746C0.188874 13.3331 0.309041 12.7739 0.718757 12.4742L2.7 11.025C2.66667 10.875 2.64583 10.7042 2.6375 10.5125C2.62917 10.3208 2.625 10.15 2.625 10C2.625 9.85 2.62917 9.67917 2.6375 9.4875C2.64583 9.29583 2.66667 9.125 2.7 8.975L0.718757 7.52576C0.309041 7.22606 0.188874 6.66693 0.439278 6.22536L1.87273 3.69756C2.12861 3.24633 2.68703 3.06568 3.15872 3.28153L5.275 4.25C5.54167 4.03333 5.85 3.825 6.2 3.625C6.55 3.425 6.88333 3.275 7.2 3.175L7.56702 0.844437C7.64359 0.358203 8.06262 0 8.55484 0H11.4462C11.938 0 12.3568 0.357548 12.4338 0.843232L12.8 3.15C13.1167 3.26667 13.4542 3.42083 13.8125 3.6125C14.1708 3.80417 14.475 4.01667 14.725 4.25L16.8413 3.28153C17.313 3.06568 17.8714 3.24633 18.1273 3.69756L19.5553 6.21582C19.808 6.66143 19.6831 7.22595 19.266 7.52334L17.3 8.925C17.3333 9.09167 17.3542 9.27083 17.3625 9.4625C17.3708 9.65417 17.375 9.83333 17.375 10C17.375 10.1667 17.3708 10.3417 17.3625 10.525C17.3542 10.7083 17.3333 10.8833 17.3 11.05L19.2737 12.4754C19.6871 12.774 19.8096 13.3358 19.558 13.7794L18.1273 16.3024C17.8714 16.7537 17.313 16.9343 16.8413 16.7185L14.725 15.75C14.4583 15.9667 14.1542 16.1792 13.8125 16.3875C13.4708 16.5958 13.1333 16.75 12.8 16.85L12.4338 19.1568C12.3568 19.6425 11.938 20 11.4462 20H8.55379ZM8.9 18.5H11.1L11.45 15.7C12 15.5667 12.5208 15.3583 13.0125 15.075C13.5042 14.7917 13.95 14.45 14.35 14.05L17 15.2L18 13.4L15.65 11.675C15.7167 11.3917 15.7708 11.1125 15.8125 10.8375C15.8542 10.5625 15.875 10.2833 15.875 10C15.875 9.71667 15.8583 9.4375 15.825 9.1625C15.7917 8.8875 15.7333 8.60833 15.65 8.325L18 6.6L17 4.8L14.35 5.95C13.9667 5.51667 13.5333 5.15417 13.05 4.8625C12.5667 4.57083 12.0333 4.38333 11.45 4.3L11.1 1.5H8.9L8.55 4.3C7.98333 4.41667 7.45417 4.61667 6.9625 4.9C6.47083 5.18333 6.03333 5.53333 5.65 5.95L3 4.8L2 6.6L4.35 8.325C4.28333 8.60833 4.22917 8.8875 4.1875 9.1625C4.14583 9.4375 4.125 9.71667 4.125 10C4.125 10.2833 4.14583 10.5625 4.1875 10.8375C4.22917 11.1125 4.28333 11.3917 4.35 11.675L2 13.4L3 15.2L5.65 14.05C6.05 14.45 6.49583 14.7917 6.9875 15.075C7.47917 15.3583 8 15.5667 8.55 15.7L8.9 18.5Z"
+                          fill="#5A5A5B"
+                        />
+                        <path
+                          d="M12.8308 12.8308C12.0513 13.6103 11.1077 14 10 14C8.89231 14 7.94872 13.6103 7.16923 12.8308C6.38974 12.0513 6 11.1077 6 10C6 8.89231 6.38974 7.94872 7.16923 7.16923C7.94872 6.38974 8.89231 6 10 6C11.1077 6 12.0513 6.38974 12.8308 7.16923C13.6103 7.94872 14 8.89231 14 10C14 11.1077 13.6103 12.0513 12.8308 12.8308Z"
+                          fill="white"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_2901_809">
+                          <rect width="20" height="20" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                    <a
+                      class="confirm-card-instruction"
+                      href="https://api-docs.zvonok.com/"
+                      target="_blank"
+                      rel="noopener norefferer"
+                      aria-label="Инструкция"
+                      >Инструкция</a
+                    >
+                  </div>
                   <div class="confirm-card-title">1. Подтверждение звонком</div>
                   <div class="confirm-card-desc">
                     После ввода номера на указанный телефон поступает звонок.
@@ -872,9 +911,11 @@
                       </svg>
                     </button>
                     <div class="confirm-card-cost">
-                      <div>Средняя стоимость подтверждения&#8239;</div>
+                      <div>
+                        Средняя стоимость подтверждения&nbsp;
+                        <span class="confirm-card-cost700">~ 0,30 ₽</span>
+                      </div>
                       <div class="d-flex">
-                        <div class="confirm-card-cost700">~ 0,15 ₽</div>
                         <button
                           class="confirm-card-tooltip"
                           type="button"
@@ -882,7 +923,7 @@
                           data-bs-placement="top"
                           data-bs-offset="142, 23"
                           data-bs-template='<div class="popover popover-orange" role="tooltip"><div class="popover-body arrow-1"></div></div>'
-                          data-bs-content="Стоимость звонка — 1,7 ₽/мин (посекундная тарификация)"
+                          data-bs-content="Стоимость звонка — 1,9 ₽/мин + 0,10 ₽ за факт звонка"
                         >
                           <svg
                             width="20"
@@ -914,10 +955,12 @@
                       Получить консультацию
                     </button>
                     <a
-                      class="confirm-card-instruction"
-                      href="https://api-docs.zvonok.com/"
+                      class="confirm-card-detail"
+                      href="/"
                       target="_blank"
-                      >Посмотреть инструкцию</a
+                      rel="noopener norefferer"
+                      aria-label="Узнать подробнее"
+                      >Узнать подробнее</a
                     >
                   </div>
                 </div>
@@ -964,7 +1007,8 @@
                   <div class="confirm-card-left-bottom">
                     <ul class="confirm-card-list">
                       <li class="confirm-card-step confirm-card-step1">
-                        На указанный в форме номер моментально поступит звонок
+                        На указанный в форме номер моментально&nbsp;поступит
+                        звонок
                       </li>
                       <li class="confirm-card-step confirm-card-step2">
                         Робот попросит нажать цифру, чтобы подтвердить ваш
@@ -1009,7 +1053,7 @@
                         <div class="confirm-card-example">Пример: Сделайте регистрацию проще — без рутины вроде ввода почты, логина и пароля.</div>
                         <div class="confirm-card-links">
                             <button class="btn btn-primary confirm-card-btn" type="button" data-bs-toggle="modal" data-bs-target="#consultationModal">Получить консультацию</button>
-                            <a class="confirm-card-instruction" href="https://api-docs.zvonok.com/" target="_blank">Посмотреть инструкцию</a>
+                            <a class="confirm-card-detail" href="https://api-docs.zvonok.com/" target="_blank">Посмотреть инструкцию</a>
                         </div>
                     </div>
                 </div>
@@ -1060,7 +1104,7 @@
                         <div class="confirm-card-example">Пример: Сделайте регистрацию проще — без рутины вроде ввода почты, логина и пароля.</div>
                         <div class="confirm-card-links">
                             <button class="btn btn-primary confirm-card-btn" type="button" data-bs-toggle="modal" data-bs-target="#consultationModal">Получить консультацию</button>
-                            <a class="confirm-card-instruction" href="https://api-docs.zvonok.com/" target="_blank">Посмотреть инструкцию</a>
+                            <a class="confirm-card-detail" href="https://api-docs.zvonok.com/" target="_blank">Посмотреть инструкцию</a>
                         </div>
                     </div>
                 </div>
@@ -1112,7 +1156,7 @@
                         <div class="confirm-card-example">Пример: Сделайте регистрацию проще — без рутины вроде ввода почты, логина и пароля.</div>
                         <div class="confirm-card-links">
                             <button class="btn btn-primary confirm-card-btn" type="button" data-bs-toggle="modal" data-bs-target="#consultationModal">Получить консультацию</button>
-                            <a class="confirm-card-instruction" href="https://api-docs.zvonok.com/" target="_blank">Посмотреть инструкцию</a>
+                            <a class="confirm-card-detail" href="https://api-docs.zvonok.com/" target="_blank">Посмотреть инструкцию</a>
                         </div>
                     </div>
                 </div>
@@ -1164,7 +1208,7 @@
                         <div class="confirm-card-example">Пример: Сделайте регистрацию проще — без рутины вроде ввода почты, логина и пароля.</div>
                         <div class="confirm-card-links">
                             <button class="btn btn-primary confirm-card-btn" type="button" data-bs-toggle="modal" data-bs-target="#consultationModal">Получить консультацию</button>
-                            <a class="confirm-card-instruction" href="https://api-docs.zvonok.com/" target="_blank">Посмотреть инструкцию</a>
+                            <a class="confirm-card-detail" href="https://api-docs.zvonok.com/" target="_blank">Посмотреть инструкцию</a>
                         </div>
                     </div>
                 </div>
@@ -1219,7 +1263,7 @@
                         <div class="confirm-card-example">Пример: Сделайте регистрацию проще — без рутины вроде ввода почты, логина и пароля.</div>
                         <div class="confirm-card-links">
                             <button class="btn btn-primary confirm-card-btn" type="button" data-bs-toggle="modal" data-bs-target="#consultationModal">Получить консультацию</button>
-                            <a class="confirm-card-instruction" href="https://api-docs.zvonok.com/" target="_blank">Посмотреть инструкцию</a>
+                            <a class="confirm-card-detail" href="https://api-docs.zvonok.com/" target="_blank">Посмотреть инструкцию</a>
                         </div>
                     </div>
                 </div>
@@ -1248,13 +1292,51 @@
         </div>-->
           <div class="confirm-card mb55-45" id="el-1">
             <div class="row align-items-center">
-              <div class="col-lg-6 col-12">
+              <div class="col-lg-6 col-12 confirm-card-wrapper">
                 <div class="confirm-card-right">
+                  <div class="confirm-instruction-wrapper">
+                    <svg
+                      class="confirm-instruction-icon"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_2901_809)">
+                        <path
+                          d="M11.8 1H8.8L8.2 3.4L5.8 5.2L2.8 4L1 7L3.4 8.8V11.2L1 13.6L2.8 16L5.2 14.8L7.6 16L8.2 19H11.8V16L14.8 14.8L17.2 16L19 13L16.6 11.2V8.8L19 6.4L17.2 4L14.8 5.2L12.4 4L11.8 1Z"
+                          fill="#5A5A5B"
+                        />
+                        <path
+                          d="M8.55379 20C8.06202 20 7.64325 19.6425 7.56615 19.1568L7.2 16.85C6.88333 16.7333 6.55 16.575 6.2 16.375C5.85 16.175 5.54167 15.9667 5.275 15.75L3.15872 16.7185C2.68703 16.9343 2.1286 16.7537 1.87273 16.3024L0.439277 13.7746C0.188874 13.3331 0.309041 12.7739 0.718757 12.4742L2.7 11.025C2.66667 10.875 2.64583 10.7042 2.6375 10.5125C2.62917 10.3208 2.625 10.15 2.625 10C2.625 9.85 2.62917 9.67917 2.6375 9.4875C2.64583 9.29583 2.66667 9.125 2.7 8.975L0.718757 7.52576C0.309041 7.22606 0.188874 6.66693 0.439278 6.22536L1.87273 3.69756C2.12861 3.24633 2.68703 3.06568 3.15872 3.28153L5.275 4.25C5.54167 4.03333 5.85 3.825 6.2 3.625C6.55 3.425 6.88333 3.275 7.2 3.175L7.56702 0.844437C7.64359 0.358203 8.06262 0 8.55484 0H11.4462C11.938 0 12.3568 0.357548 12.4338 0.843232L12.8 3.15C13.1167 3.26667 13.4542 3.42083 13.8125 3.6125C14.1708 3.80417 14.475 4.01667 14.725 4.25L16.8413 3.28153C17.313 3.06568 17.8714 3.24633 18.1273 3.69756L19.5553 6.21582C19.808 6.66143 19.6831 7.22595 19.266 7.52334L17.3 8.925C17.3333 9.09167 17.3542 9.27083 17.3625 9.4625C17.3708 9.65417 17.375 9.83333 17.375 10C17.375 10.1667 17.3708 10.3417 17.3625 10.525C17.3542 10.7083 17.3333 10.8833 17.3 11.05L19.2737 12.4754C19.6871 12.774 19.8096 13.3358 19.558 13.7794L18.1273 16.3024C17.8714 16.7537 17.313 16.9343 16.8413 16.7185L14.725 15.75C14.4583 15.9667 14.1542 16.1792 13.8125 16.3875C13.4708 16.5958 13.1333 16.75 12.8 16.85L12.4338 19.1568C12.3568 19.6425 11.938 20 11.4462 20H8.55379ZM8.9 18.5H11.1L11.45 15.7C12 15.5667 12.5208 15.3583 13.0125 15.075C13.5042 14.7917 13.95 14.45 14.35 14.05L17 15.2L18 13.4L15.65 11.675C15.7167 11.3917 15.7708 11.1125 15.8125 10.8375C15.8542 10.5625 15.875 10.2833 15.875 10C15.875 9.71667 15.8583 9.4375 15.825 9.1625C15.7917 8.8875 15.7333 8.60833 15.65 8.325L18 6.6L17 4.8L14.35 5.95C13.9667 5.51667 13.5333 5.15417 13.05 4.8625C12.5667 4.57083 12.0333 4.38333 11.45 4.3L11.1 1.5H8.9L8.55 4.3C7.98333 4.41667 7.45417 4.61667 6.9625 4.9C6.47083 5.18333 6.03333 5.53333 5.65 5.95L3 4.8L2 6.6L4.35 8.325C4.28333 8.60833 4.22917 8.8875 4.1875 9.1625C4.14583 9.4375 4.125 9.71667 4.125 10C4.125 10.2833 4.14583 10.5625 4.1875 10.8375C4.22917 11.1125 4.28333 11.3917 4.35 11.675L2 13.4L3 15.2L5.65 14.05C6.05 14.45 6.49583 14.7917 6.9875 15.075C7.47917 15.3583 8 15.5667 8.55 15.7L8.9 18.5Z"
+                          fill="#5A5A5B"
+                        />
+                        <path
+                          d="M12.8308 12.8308C12.0513 13.6103 11.1077 14 10 14C8.89231 14 7.94872 13.6103 7.16923 12.8308C6.38974 12.0513 6 11.1077 6 10C6 8.89231 6.38974 7.94872 7.16923 7.16923C7.94872 6.38974 8.89231 6 10 6C11.1077 6 12.0513 6.38974 12.8308 7.16923C13.6103 7.94872 14 8.89231 14 10C14 11.1077 13.6103 12.0513 12.8308 12.8308Z"
+                          fill="white"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_2901_809">
+                          <rect width="20" height="20" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                    <a
+                      class="confirm-card-instruction"
+                      href="https://api-docs.zvonok.com/"
+                      target="_blank"
+                      rel="noopener norefferer"
+                      aria-label="Инструкция"
+                      >Инструкция</a
+                    >
+                  </div>
                   <div class="confirm-card-title">2. Диктовка кода роботом</div>
                   <div class="confirm-card-desc">
                     Пользователь вводит номер телефона и получает звонок от
-                    робота. Робот произнесёт код, который нужно ввести в форме
-                    для подтверждения.
+                    робота. Робот произнесёт код, который нужно ввести
+                    в&nbsp;форме для подтверждения.
                   </div>
                   <div class="confirm-card-price">
                     <button
@@ -1277,9 +1359,11 @@
                       </svg>
                     </button>
                     <div class="confirm-card-cost">
-                      <div>Средняя стоимость подтверждения&#8239;</div>
+                      <div>
+                        Средняя стоимость подтверждения&nbsp;
+                        <span class="confirm-card-cost700">~ 0,30 ₽</span>
+                      </div>
                       <div class="d-flex">
-                        <div class="confirm-card-cost700">~ 0,15 ₽</div>
                         <button
                           class="confirm-card-tooltip"
                           type="button"
@@ -1287,7 +1371,7 @@
                           data-bs-placement="top"
                           data-bs-offset="142, 23"
                           data-bs-template='<div class="popover popover-orange" role="tooltip"><div class="popover-body arrow-1"></div></div>'
-                          data-bs-content="Стоимость звонка — 1,7 ₽/мин (посекундная тарификация)"
+                          data-bs-content="Стоимость звонка — 1,9 ₽/мин + 0,10 ₽ за факт звонка"
                         >
                           <svg
                             width="20"
@@ -1306,8 +1390,9 @@
                     </div>
                   </div>
                   <div class="confirm-card-example">
-                    Пример: Выдавайте одноразовые или гостевые доступы клиентам
-                    для ознакомления с сервисом без регистрации.
+                    Пример: Выдавайте одноразовые или&nbsp;гостевые доступы
+                    клиентам для&nbsp;ознакомления с&nbsp;сервисом
+                    без&nbsp;регистрации.
                   </div>
                   <div class="confirm-card-links">
                     <button
@@ -1319,10 +1404,12 @@
                       Получить консультацию
                     </button>
                     <a
-                      class="confirm-card-instruction"
-                      href="https://api-docs.zvonok.com/"
+                      class="confirm-card-detail"
+                      href="/"
                       target="_blank"
-                      >Посмотреть инструкцию</a
+                      rel="noopener norefferer"
+                      aria-label="Узнать подробнее"
+                      >Узнать подробнее</a
                     >
                   </div>
                 </div>
@@ -1369,7 +1456,8 @@
                   <div class="confirm-card-left-bottom">
                     <ul class="confirm-card-list">
                       <li class="confirm-card-step confirm-card-step1">
-                        На указанный в форме номер моментально поступит звонок
+                        На указанный в форме номер моментально&nbsp;поступит
+                        звонок
                       </li>
                       <li class="confirm-card-step confirm-card-step2">
                         Примите вызов и робот произнесёт код, который нужно
@@ -1425,7 +1513,7 @@
                         <div class="confirm-card-links">
                             <button class="btn btn-primary confirm-card-btn" type="button" data-bs-toggle="modal" data-bs-target="#consultationModal">Получить консультацию
                             </button>
-                            <a class="confirm-card-instruction" href="https://api-docs.zvonok.com/" target="_blank">Посмотреть
+                            <a class="confirm-card-detail" href="https://api-docs.zvonok.com/" target="_blank">Посмотреть
                                 инструкцию</a>
                         </div>
                     </div>
@@ -1497,7 +1585,7 @@
                         <div class="confirm-card-links">
                             <button class="btn btn-primary confirm-card-btn" type="button" data-bs-toggle="modal" data-bs-target="#consultationModal">Получить консультацию
                             </button>
-                            <a class="confirm-card-instruction" href="https://api-docs.zvonok.com/" target="_blank">Посмотреть
+                            <a class="confirm-card-detail" href="https://api-docs.zvonok.com/" target="_blank">Посмотреть
                                 инструкцию</a>
                         </div>
                     </div>
@@ -1568,7 +1656,7 @@
                         <div class="confirm-card-links">
                             <button class="btn btn-primary confirm-card-btn" type="button" data-bs-toggle="modal" data-bs-target="#consultationModal">Получить консультацию
                             </button>
-                            <a class="confirm-card-instruction" href="https://api-docs.zvonok.com/" target="_blank">Посмотреть
+                            <a class="confirm-card-detail" href="https://api-docs.zvonok.com/" target="_blank">Посмотреть
                                 инструкцию</a>
                         </div>
                     </div>
@@ -1602,8 +1690,48 @@
         </div>-->
           <div class="confirm-card mb55-45" id="el-2">
             <div class="row align-items-center">
-              <div class="col-lg-6 col-12">
+              <div class="col-lg-6 col-12 confirm-card-wrapper">
                 <div class="confirm-card-right">
+                  <div
+                    class="confirm-instruction-wrapper confirm-instruction-wrapper-step3"
+                  >
+                    <svg
+                      class="confirm-instruction-icon"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_2901_809)">
+                        <path
+                          d="M11.8 1H8.8L8.2 3.4L5.8 5.2L2.8 4L1 7L3.4 8.8V11.2L1 13.6L2.8 16L5.2 14.8L7.6 16L8.2 19H11.8V16L14.8 14.8L17.2 16L19 13L16.6 11.2V8.8L19 6.4L17.2 4L14.8 5.2L12.4 4L11.8 1Z"
+                          fill="#5A5A5B"
+                        />
+                        <path
+                          d="M8.55379 20C8.06202 20 7.64325 19.6425 7.56615 19.1568L7.2 16.85C6.88333 16.7333 6.55 16.575 6.2 16.375C5.85 16.175 5.54167 15.9667 5.275 15.75L3.15872 16.7185C2.68703 16.9343 2.1286 16.7537 1.87273 16.3024L0.439277 13.7746C0.188874 13.3331 0.309041 12.7739 0.718757 12.4742L2.7 11.025C2.66667 10.875 2.64583 10.7042 2.6375 10.5125C2.62917 10.3208 2.625 10.15 2.625 10C2.625 9.85 2.62917 9.67917 2.6375 9.4875C2.64583 9.29583 2.66667 9.125 2.7 8.975L0.718757 7.52576C0.309041 7.22606 0.188874 6.66693 0.439278 6.22536L1.87273 3.69756C2.12861 3.24633 2.68703 3.06568 3.15872 3.28153L5.275 4.25C5.54167 4.03333 5.85 3.825 6.2 3.625C6.55 3.425 6.88333 3.275 7.2 3.175L7.56702 0.844437C7.64359 0.358203 8.06262 0 8.55484 0H11.4462C11.938 0 12.3568 0.357548 12.4338 0.843232L12.8 3.15C13.1167 3.26667 13.4542 3.42083 13.8125 3.6125C14.1708 3.80417 14.475 4.01667 14.725 4.25L16.8413 3.28153C17.313 3.06568 17.8714 3.24633 18.1273 3.69756L19.5553 6.21582C19.808 6.66143 19.6831 7.22595 19.266 7.52334L17.3 8.925C17.3333 9.09167 17.3542 9.27083 17.3625 9.4625C17.3708 9.65417 17.375 9.83333 17.375 10C17.375 10.1667 17.3708 10.3417 17.3625 10.525C17.3542 10.7083 17.3333 10.8833 17.3 11.05L19.2737 12.4754C19.6871 12.774 19.8096 13.3358 19.558 13.7794L18.1273 16.3024C17.8714 16.7537 17.313 16.9343 16.8413 16.7185L14.725 15.75C14.4583 15.9667 14.1542 16.1792 13.8125 16.3875C13.4708 16.5958 13.1333 16.75 12.8 16.85L12.4338 19.1568C12.3568 19.6425 11.938 20 11.4462 20H8.55379ZM8.9 18.5H11.1L11.45 15.7C12 15.5667 12.5208 15.3583 13.0125 15.075C13.5042 14.7917 13.95 14.45 14.35 14.05L17 15.2L18 13.4L15.65 11.675C15.7167 11.3917 15.7708 11.1125 15.8125 10.8375C15.8542 10.5625 15.875 10.2833 15.875 10C15.875 9.71667 15.8583 9.4375 15.825 9.1625C15.7917 8.8875 15.7333 8.60833 15.65 8.325L18 6.6L17 4.8L14.35 5.95C13.9667 5.51667 13.5333 5.15417 13.05 4.8625C12.5667 4.57083 12.0333 4.38333 11.45 4.3L11.1 1.5H8.9L8.55 4.3C7.98333 4.41667 7.45417 4.61667 6.9625 4.9C6.47083 5.18333 6.03333 5.53333 5.65 5.95L3 4.8L2 6.6L4.35 8.325C4.28333 8.60833 4.22917 8.8875 4.1875 9.1625C4.14583 9.4375 4.125 9.71667 4.125 10C4.125 10.2833 4.14583 10.5625 4.1875 10.8375C4.22917 11.1125 4.28333 11.3917 4.35 11.675L2 13.4L3 15.2L5.65 14.05C6.05 14.45 6.49583 14.7917 6.9875 15.075C7.47917 15.3583 8 15.5667 8.55 15.7L8.9 18.5Z"
+                          fill="#5A5A5B"
+                        />
+                        <path
+                          d="M12.8308 12.8308C12.0513 13.6103 11.1077 14 10 14C8.89231 14 7.94872 13.6103 7.16923 12.8308C6.38974 12.0513 6 11.1077 6 10C6 8.89231 6.38974 7.94872 7.16923 7.16923C7.94872 6.38974 8.89231 6 10 6C11.1077 6 12.0513 6.38974 12.8308 7.16923C13.6103 7.94872 14 8.89231 14 10C14 11.1077 13.6103 12.0513 12.8308 12.8308Z"
+                          fill="white"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_2901_809">
+                          <rect width="20" height="20" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                    <a
+                      class="confirm-card-instruction"
+                      href="https://api-docs.zvonok.com/"
+                      target="_blank"
+                      rel="noopener norefferer"
+                      aria-label="Инструкция"
+                      >Инструкция</a
+                    >
+                  </div>
                   <div class="confirm-card-title">3. Ввод кода при звонке</div>
                   <div class="confirm-card-desc">
                     Для успешной верификации нужно ввести код, который
@@ -1631,9 +1759,11 @@
                       </svg>
                     </button>
                     <div class="confirm-card-cost">
-                      <div>Средняя стоимость подтверждения&#8239;</div>
+                      <div>
+                        Средняя стоимость подтверждения&nbsp;
+                        <span class="confirm-card-cost700">~ 0,30 ₽</span>
+                      </div>
                       <div class="d-flex">
-                        <div class="confirm-card-cost700">~ 0,15 ₽</div>
                         <button
                           class="confirm-card-tooltip"
                           type="button"
@@ -1641,7 +1771,7 @@
                           data-bs-placement="top"
                           data-bs-offset="142, 23"
                           data-bs-template='<div class="popover popover-orange" role="tooltip"><div class="popover-body arrow-1"></div></div>'
-                          data-bs-content="Стоимость звонка — 1,7 ₽/мин (посекундная тарификация)"
+                          data-bs-content="Стоимость звонка — 1,9 ₽/мин + 0,10 ₽ за факт звонка"
                         >
                           <svg
                             width="20"
@@ -1673,10 +1803,12 @@
                       Получить консультацию
                     </button>
                     <a
-                      class="confirm-card-instruction"
-                      href="https://api-docs.zvonok.com/"
+                      class="confirm-card-detail"
+                      href="/"
                       target="_blank"
-                      >Посмотреть инструкцию</a
+                      rel="noopener norefferer"
+                      aria-label="Узнать подробнее"
+                      >Узнать подробнее</a
                     >
                   </div>
                 </div>
@@ -1723,7 +1855,8 @@
                   <div class="confirm-card-left-bottom">
                     <ul class="confirm-card-list">
                       <li class="confirm-card-step confirm-card-step1">
-                        На указанный в форме номер моментально поступит звонок
+                        На указанный в форме номер моментально&nbsp;поступит
+                        звонок
                       </li>
                       <li class="confirm-card-step confirm-card-step2">
                         Робот попросит ввести проверочный код во время разговора
@@ -1780,7 +1913,7 @@
                         <div class="confirm-card-links">
                             <button class="btn btn-primary confirm-card-btn" type="button" data-bs-toggle="modal" data-bs-target="#consultationModal">Получить консультацию
                             </button>
-                            <a class="confirm-card-instruction" href="https://api-docs.zvonok.com/" target="_blank">Посмотреть
+                            <a class="confirm-card-detail" href="https://api-docs.zvonok.com/" target="_blank">Посмотреть
                                 инструкцию</a>
                         </div>
                     </div>
@@ -1851,7 +1984,7 @@
                         <div class="confirm-card-links">
                             <button class="btn btn-primary confirm-card-btn" type="button" data-bs-toggle="modal" data-bs-target="#consultationModal">Получить консультацию
                             </button>
-                            <a class="confirm-card-instruction" href="https://api-docs.zvonok.com/" target="_blank">Посмотреть
+                            <a class="confirm-card-detail" href="https://api-docs.zvonok.com/" target="_blank">Посмотреть
                                 инструкцию</a>
                         </div>
                     </div>
@@ -1923,7 +2056,7 @@
                         <div class="confirm-card-links">
                             <button class="btn btn-primary confirm-card-btn" type="button" data-bs-toggle="modal" data-bs-target="#consultationModal">Получить консультацию
                             </button>
-                            <a class="confirm-card-instruction" href="https://api-docs.zvonok.com/" target="_blank">Посмотреть
+                            <a class="confirm-card-detail" href="https://api-docs.zvonok.com/" target="_blank">Посмотреть
                                 инструкцию</a>
                         </div>
                     </div>
@@ -1957,8 +2090,50 @@
         </div>-->
           <div class="confirm-card mb55-45" id="el-3">
             <div class="row align-items-center">
-              <div class="col-lg-6 col-12">
+              <div
+                class="col-lg-6 col-12 confirm-card-wrapper confirm-card-wrapper-step4"
+              >
                 <div class="confirm-card-right">
+                  <div
+                    class="confirm-instruction-wrapper confirm-instruction-wrapper-step4"
+                  >
+                    <svg
+                      class="confirm-instruction-icon"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_2901_809)">
+                        <path
+                          d="M11.8 1H8.8L8.2 3.4L5.8 5.2L2.8 4L1 7L3.4 8.8V11.2L1 13.6L2.8 16L5.2 14.8L7.6 16L8.2 19H11.8V16L14.8 14.8L17.2 16L19 13L16.6 11.2V8.8L19 6.4L17.2 4L14.8 5.2L12.4 4L11.8 1Z"
+                          fill="#5A5A5B"
+                        />
+                        <path
+                          d="M8.55379 20C8.06202 20 7.64325 19.6425 7.56615 19.1568L7.2 16.85C6.88333 16.7333 6.55 16.575 6.2 16.375C5.85 16.175 5.54167 15.9667 5.275 15.75L3.15872 16.7185C2.68703 16.9343 2.1286 16.7537 1.87273 16.3024L0.439277 13.7746C0.188874 13.3331 0.309041 12.7739 0.718757 12.4742L2.7 11.025C2.66667 10.875 2.64583 10.7042 2.6375 10.5125C2.62917 10.3208 2.625 10.15 2.625 10C2.625 9.85 2.62917 9.67917 2.6375 9.4875C2.64583 9.29583 2.66667 9.125 2.7 8.975L0.718757 7.52576C0.309041 7.22606 0.188874 6.66693 0.439278 6.22536L1.87273 3.69756C2.12861 3.24633 2.68703 3.06568 3.15872 3.28153L5.275 4.25C5.54167 4.03333 5.85 3.825 6.2 3.625C6.55 3.425 6.88333 3.275 7.2 3.175L7.56702 0.844437C7.64359 0.358203 8.06262 0 8.55484 0H11.4462C11.938 0 12.3568 0.357548 12.4338 0.843232L12.8 3.15C13.1167 3.26667 13.4542 3.42083 13.8125 3.6125C14.1708 3.80417 14.475 4.01667 14.725 4.25L16.8413 3.28153C17.313 3.06568 17.8714 3.24633 18.1273 3.69756L19.5553 6.21582C19.808 6.66143 19.6831 7.22595 19.266 7.52334L17.3 8.925C17.3333 9.09167 17.3542 9.27083 17.3625 9.4625C17.3708 9.65417 17.375 9.83333 17.375 10C17.375 10.1667 17.3708 10.3417 17.3625 10.525C17.3542 10.7083 17.3333 10.8833 17.3 11.05L19.2737 12.4754C19.6871 12.774 19.8096 13.3358 19.558 13.7794L18.1273 16.3024C17.8714 16.7537 17.313 16.9343 16.8413 16.7185L14.725 15.75C14.4583 15.9667 14.1542 16.1792 13.8125 16.3875C13.4708 16.5958 13.1333 16.75 12.8 16.85L12.4338 19.1568C12.3568 19.6425 11.938 20 11.4462 20H8.55379ZM8.9 18.5H11.1L11.45 15.7C12 15.5667 12.5208 15.3583 13.0125 15.075C13.5042 14.7917 13.95 14.45 14.35 14.05L17 15.2L18 13.4L15.65 11.675C15.7167 11.3917 15.7708 11.1125 15.8125 10.8375C15.8542 10.5625 15.875 10.2833 15.875 10C15.875 9.71667 15.8583 9.4375 15.825 9.1625C15.7917 8.8875 15.7333 8.60833 15.65 8.325L18 6.6L17 4.8L14.35 5.95C13.9667 5.51667 13.5333 5.15417 13.05 4.8625C12.5667 4.57083 12.0333 4.38333 11.45 4.3L11.1 1.5H8.9L8.55 4.3C7.98333 4.41667 7.45417 4.61667 6.9625 4.9C6.47083 5.18333 6.03333 5.53333 5.65 5.95L3 4.8L2 6.6L4.35 8.325C4.28333 8.60833 4.22917 8.8875 4.1875 9.1625C4.14583 9.4375 4.125 9.71667 4.125 10C4.125 10.2833 4.14583 10.5625 4.1875 10.8375C4.22917 11.1125 4.28333 11.3917 4.35 11.675L2 13.4L3 15.2L5.65 14.05C6.05 14.45 6.49583 14.7917 6.9875 15.075C7.47917 15.3583 8 15.5667 8.55 15.7L8.9 18.5Z"
+                          fill="#5A5A5B"
+                        />
+                        <path
+                          d="M12.8308 12.8308C12.0513 13.6103 11.1077 14 10 14C8.89231 14 7.94872 13.6103 7.16923 12.8308C6.38974 12.0513 6 11.1077 6 10C6 8.89231 6.38974 7.94872 7.16923 7.16923C7.94872 6.38974 8.89231 6 10 6C11.1077 6 12.0513 6.38974 12.8308 7.16923C13.6103 7.94872 14 8.89231 14 10C14 11.1077 13.6103 12.0513 12.8308 12.8308Z"
+                          fill="white"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_2901_809">
+                          <rect width="20" height="20" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                    <a
+                      class="confirm-card-instruction"
+                      href="https://api-docs.zvonok.com/"
+                      target="_blank"
+                      rel="noopener norefferer"
+                      aria-label="Инструкция"
+                      >Инструкция</a
+                    >
+                  </div>
                   <div class="confirm-card-title">
                     4. Звонок на проверочный номер
                   </div>
@@ -1969,9 +2144,11 @@
                   </div>
                   <div class="confirm-card-price">
                     <div class="confirm-card-cost ml0">
-                      <div>Стоимость подтверждения&#8239;</div>
-                      <div class="d-flex">
-                        <div class="confirm-card-cost700">— 0,10 ₽</div>
+                      <div>
+                        Стоимость подтверждения&#8239;
+                        <span class="confirm-card-cost700"
+                          >—&nbsp;0,10&nbsp;₽</span
+                        >
                       </div>
                     </div>
                   </div>
@@ -1989,10 +2166,12 @@
                       Получить консультацию
                     </button>
                     <a
-                      class="confirm-card-instruction"
-                      href="https://api-docs.zvonok.com/"
+                      class="confirm-card-detail"
+                      href="/"
                       target="_blank"
-                      >Посмотреть инструкцию</a
+                      rel="noopener norefferer"
+                      aria-label="Узнать подробнее"
+                      >Узнать подробнее</a
                     >
                   </div>
                 </div>
@@ -2076,7 +2255,7 @@
                         <div class="confirm-card-links">
                             <button class="btn btn-primary confirm-card-btn" type="button" data-bs-toggle="modal" data-bs-target="#consultationModal">Получить консультацию
                             </button>
-                            <a class="confirm-card-instruction" href="https://api-docs.zvonok.com/" target="_blank">Посмотреть
+                            <a class="confirm-card-detail" href="https://api-docs.zvonok.com/" target="_blank">Посмотреть
                                 инструкцию</a>
                         </div>
                     </div>
@@ -2124,7 +2303,7 @@
                         <div class="confirm-card-links">
                             <button class="btn btn-primary confirm-card-btn" type="button" data-bs-toggle="modal" data-bs-target="#consultationModal">Получить консультацию
                             </button>
-                            <a class="confirm-card-instruction" href="https://api-docs.zvonok.com/" target="_blank">Посмотреть
+                            <a class="confirm-card-detail" href="https://api-docs.zvonok.com/" target="_blank">Посмотреть
                                 инструкцию</a>
                         </div>
                     </div>
@@ -2172,7 +2351,7 @@
                         <div class="confirm-card-links">
                             <button class="btn btn-primary confirm-card-btn" type="button" data-bs-toggle="modal" data-bs-target="#consultationModal">Получить консультацию
                             </button>
-                            <a class="confirm-card-instruction" href="https://api-docs.zvonok.com/" target="_blank">Посмотреть
+                            <a class="confirm-card-detail" href="https://api-docs.zvonok.com/" target="_blank">Посмотреть
                                 инструкцию</a>
                         </div>
                     </div>
@@ -2204,6 +2383,46 @@
             <div class="row align-items-center">
               <div class="col-lg-6 col-12">
                 <div class="confirm-card-right">
+                  <div
+                    class="confirm-instruction-wrapper confirm-instruction-wrapper-step3"
+                  >
+                    <svg
+                      class="confirm-instruction-icon"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_2901_809)">
+                        <path
+                          d="M11.8 1H8.8L8.2 3.4L5.8 5.2L2.8 4L1 7L3.4 8.8V11.2L1 13.6L2.8 16L5.2 14.8L7.6 16L8.2 19H11.8V16L14.8 14.8L17.2 16L19 13L16.6 11.2V8.8L19 6.4L17.2 4L14.8 5.2L12.4 4L11.8 1Z"
+                          fill="#5A5A5B"
+                        />
+                        <path
+                          d="M8.55379 20C8.06202 20 7.64325 19.6425 7.56615 19.1568L7.2 16.85C6.88333 16.7333 6.55 16.575 6.2 16.375C5.85 16.175 5.54167 15.9667 5.275 15.75L3.15872 16.7185C2.68703 16.9343 2.1286 16.7537 1.87273 16.3024L0.439277 13.7746C0.188874 13.3331 0.309041 12.7739 0.718757 12.4742L2.7 11.025C2.66667 10.875 2.64583 10.7042 2.6375 10.5125C2.62917 10.3208 2.625 10.15 2.625 10C2.625 9.85 2.62917 9.67917 2.6375 9.4875C2.64583 9.29583 2.66667 9.125 2.7 8.975L0.718757 7.52576C0.309041 7.22606 0.188874 6.66693 0.439278 6.22536L1.87273 3.69756C2.12861 3.24633 2.68703 3.06568 3.15872 3.28153L5.275 4.25C5.54167 4.03333 5.85 3.825 6.2 3.625C6.55 3.425 6.88333 3.275 7.2 3.175L7.56702 0.844437C7.64359 0.358203 8.06262 0 8.55484 0H11.4462C11.938 0 12.3568 0.357548 12.4338 0.843232L12.8 3.15C13.1167 3.26667 13.4542 3.42083 13.8125 3.6125C14.1708 3.80417 14.475 4.01667 14.725 4.25L16.8413 3.28153C17.313 3.06568 17.8714 3.24633 18.1273 3.69756L19.5553 6.21582C19.808 6.66143 19.6831 7.22595 19.266 7.52334L17.3 8.925C17.3333 9.09167 17.3542 9.27083 17.3625 9.4625C17.3708 9.65417 17.375 9.83333 17.375 10C17.375 10.1667 17.3708 10.3417 17.3625 10.525C17.3542 10.7083 17.3333 10.8833 17.3 11.05L19.2737 12.4754C19.6871 12.774 19.8096 13.3358 19.558 13.7794L18.1273 16.3024C17.8714 16.7537 17.313 16.9343 16.8413 16.7185L14.725 15.75C14.4583 15.9667 14.1542 16.1792 13.8125 16.3875C13.4708 16.5958 13.1333 16.75 12.8 16.85L12.4338 19.1568C12.3568 19.6425 11.938 20 11.4462 20H8.55379ZM8.9 18.5H11.1L11.45 15.7C12 15.5667 12.5208 15.3583 13.0125 15.075C13.5042 14.7917 13.95 14.45 14.35 14.05L17 15.2L18 13.4L15.65 11.675C15.7167 11.3917 15.7708 11.1125 15.8125 10.8375C15.8542 10.5625 15.875 10.2833 15.875 10C15.875 9.71667 15.8583 9.4375 15.825 9.1625C15.7917 8.8875 15.7333 8.60833 15.65 8.325L18 6.6L17 4.8L14.35 5.95C13.9667 5.51667 13.5333 5.15417 13.05 4.8625C12.5667 4.57083 12.0333 4.38333 11.45 4.3L11.1 1.5H8.9L8.55 4.3C7.98333 4.41667 7.45417 4.61667 6.9625 4.9C6.47083 5.18333 6.03333 5.53333 5.65 5.95L3 4.8L2 6.6L4.35 8.325C4.28333 8.60833 4.22917 8.8875 4.1875 9.1625C4.14583 9.4375 4.125 9.71667 4.125 10C4.125 10.2833 4.14583 10.5625 4.1875 10.8375C4.22917 11.1125 4.28333 11.3917 4.35 11.675L2 13.4L3 15.2L5.65 14.05C6.05 14.45 6.49583 14.7917 6.9875 15.075C7.47917 15.3583 8 15.5667 8.55 15.7L8.9 18.5Z"
+                          fill="#5A5A5B"
+                        />
+                        <path
+                          d="M12.8308 12.8308C12.0513 13.6103 11.1077 14 10 14C8.89231 14 7.94872 13.6103 7.16923 12.8308C6.38974 12.0513 6 11.1077 6 10C6 8.89231 6.38974 7.94872 7.16923 7.16923C7.94872 6.38974 8.89231 6 10 6C11.1077 6 12.0513 6.38974 12.8308 7.16923C13.6103 7.94872 14 8.89231 14 10C14 11.1077 13.6103 12.0513 12.8308 12.8308Z"
+                          fill="white"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_2901_809">
+                          <rect width="20" height="20" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                    <a
+                      class="confirm-card-instruction"
+                      href="https://api-docs.zvonok.com/"
+                      target="_blank"
+                      rel="noopener norefferer"
+                      aria-label="Инструкция"
+                      >Инструкция</a
+                    >
+                  </div>
                   <div class="confirm-card-title">5. Flash Call</div>
                   <div class="confirm-card-desc">
                     Для подтверждения используются четыре последние цифры
@@ -2211,10 +2430,53 @@
                     отвечать, просто введите последние цифры номера.
                   </div>
                   <div class="confirm-card-price">
-                    <div class="confirm-card-cost ml0">
-                      <div>Стоимость подтверждения&#8239;</div>
+                    <button
+                      class="confirm-card-modal"
+                      type="button"
+                      data-bs-toggle="modal"
+                      data-bs-target="#modalConfirm1"
+                    >
+                      <svg
+                        width="22"
+                        height="22"
+                        viewBox="0 0 20 20"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M10 0C8.0222 0 6.08879 0.586489 4.4443 1.6853C2.79981 2.78412 1.51809 4.3459 0.761211 6.17316C0.00433075 8.00039 -0.193699 10.0111 0.192151 11.9509C0.578001 13.8907 1.53041 15.6725 2.92894 17.0711C4.32746 18.4696 6.10929 19.422 8.0491 19.8079C9.9889 20.1937 11.9996 19.9957 13.8268 19.2388C15.6541 18.4819 17.2159 17.2002 18.3147 15.5557C19.4135 13.9112 20 11.9778 20 9.99999C20 8.68679 19.7413 7.38641 19.2388 6.17316C18.7363 4.9599 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761199C12.6136 0.25866 11.3132 0 10 0ZM10.95 15H9.05V8.49999H10.95V15ZM10 7.14999C9.7726 7.14999 9.5502 7.08254 9.3611 6.95618C9.172 6.82982 9.0246 6.65021 8.9375 6.44008C8.8505 6.22994 8.8277 5.99871 8.8721 5.77564C8.9165 5.55256 9.026 5.34765 9.1868 5.18682C9.3477 5.02599 9.5526 4.91646 9.7757 4.87209C9.9987 4.82771 10.23 4.85049 10.4401 4.93753C10.6502 5.02457 10.8298 5.17197 10.9562 5.36108C11.0826 5.5502 11.15 5.77254 11.15 5.99999C11.15 6.30499 11.0288 6.5975 10.8132 6.81316C10.5975 7.02883 10.305 7.14999 10 7.14999Z"
+                          fill="#F4774C"
+                        />
+                      </svg>
+                    </button>
+                    <div class="confirm-card-cost">
+                      <div>
+                        Стоимость отправки кода&nbsp;
+                        <span class="confirm-card-cost700">— 0,30&nbsp;₽</span>
+                      </div>
                       <div class="d-flex">
-                        <div class="confirm-card-cost700">— 0,10 ₽</div>
+                        <button
+                          class="confirm-card-tooltip"
+                          type="button"
+                          data-bs-toggle="popover"
+                          data-bs-placement="top"
+                          data-bs-offset="142, 23"
+                          data-bs-template='<div class="popover popover-orange" role="tooltip"><div class="popover-body arrow-1"></div></div>'
+                          data-bs-content="Стоимость звонка — 1,9 ₽/мин + 0,10 ₽ за факт звонка"
+                        >
+                          <svg
+                            width="20"
+                            height="20"
+                            viewBox="0 0 20 20"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M10 0C8.0222 0 6.08879 0.586489 4.4443 1.6853C2.79981 2.78412 1.51809 4.3459 0.761211 6.17316C0.00433075 8.00039 -0.193699 10.0111 0.192151 11.9509C0.578001 13.8907 1.53041 15.6725 2.92894 17.0711C4.32746 18.4696 6.10929 19.422 8.0491 19.8079C9.9889 20.1937 11.9996 19.9957 13.8268 19.2388C15.6541 18.4819 17.2159 17.2002 18.3147 15.5557C19.4135 13.9112 20 11.9778 20 9.99999C20 8.68679 19.7413 7.38641 19.2388 6.17316C18.7363 4.9599 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761199C12.6136 0.25866 11.3132 0 10 0ZM10.95 15H9.05V8.49999H10.95V15ZM10 7.14999C9.7726 7.14999 9.5502 7.08254 9.3611 6.95618C9.172 6.82982 9.0246 6.65021 8.9375 6.44008C8.8505 6.22994 8.8277 5.99871 8.8721 5.77564C8.9165 5.55256 9.026 5.34765 9.1868 5.18682C9.3477 5.02599 9.5526 4.91646 9.7757 4.87209C9.9987 4.82771 10.23 4.85049 10.4401 4.93753C10.6502 5.02457 10.8298 5.17197 10.9562 5.36108C11.0826 5.5502 11.15 5.77254 11.15 5.99999C11.15 6.30499 11.0288 6.5975 10.8132 6.81316C10.5975 7.02883 10.305 7.14999 10 7.14999Z"
+                              fill="#F4774C"
+                            />
+                          </svg>
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -2232,10 +2494,12 @@
                       Получить консультацию
                     </button>
                     <a
-                      class="confirm-card-instruction"
-                      href="https://api-docs.zvonok.com/"
+                      class="confirm-card-detail"
+                      href="/"
                       target="_blank"
-                      >Посмотреть инструкцию</a
+                      rel="noopener norefferer"
+                      aria-label="Узнать подробнее"
+                      >Узнать подробнее</a
                     >
                   </div>
                 </div>
@@ -2282,7 +2546,8 @@
                   <div class="confirm-card-left-bottom">
                     <ul class="confirm-card-list">
                       <li class="confirm-card-step confirm-card-step1">
-                        На указанный в форме номер моментально поступит звонок
+                        На указанный в форме номер моментально&nbsp;поступит
+                        звонок
                       </li>
                       <li class="confirm-card-step confirm-card-step2">
                         Для подтверждения нужно ввести последние 4 цифры
@@ -2319,7 +2584,7 @@
                         <div class="confirm-card-links">
                             <button class="btn btn-primary confirm-card-btn" type="button" data-bs-toggle="modal" data-bs-target="#consultationModal">Получить консультацию
                             </button>
-                            <a class="confirm-card-instruction" href="https://api-docs.zvonok.com/" target="_blank">Посмотреть
+                            <a class="confirm-card-detail" href="https://api-docs.zvonok.com/" target="_blank">Посмотреть
                                 инструкцию</a>
                         </div>
                     </div>
@@ -2371,7 +2636,7 @@
                         <div class="confirm-card-links">
                             <button class="btn btn-primary confirm-card-btn" type="button" data-bs-toggle="modal" data-bs-target="#consultationModal">Получить консультацию
                             </button>
-                            <a class="confirm-card-instruction" href="https://api-docs.zvonok.com/" target="_blank">Посмотреть
+                            <a class="confirm-card-detail" href="https://api-docs.zvonok.com/" target="_blank">Посмотреть
                                 инструкцию</a>
                         </div>
                     </div>
@@ -2422,7 +2687,7 @@
                         <div class="confirm-card-links">
                             <button class="btn btn-primary confirm-card-btn" type="button" data-bs-toggle="modal" data-bs-target="#consultationModal">Получить консультацию
                             </button>
-                            <a class="confirm-card-instruction" href="https://api-docs.zvonok.com/" target="_blank">Посмотреть
+                            <a class="confirm-card-detail" href="https://api-docs.zvonok.com/" target="_blank">Посмотреть
                                 инструкцию</a>
                         </div>
                     </div>
@@ -5214,8 +5479,9 @@
           <div class="modal-body">
             <div class="modal-desc">
               Стоимость звонка
-              <span class="confirm-card-cost700">— 1,7 ₽/мин</span> (посекундная
-              тарификация)
+              <span class="confirm-card-cost700"
+                >— 1,9 ₽/мин +&nbsp;0,10 ₽ за факт звонка</span
+              >
             </div>
           </div>
         </div>
@@ -5686,12 +5952,12 @@
       </div>
     </div>
 
-    <script type="module" src="js/bootstrap.js"></script>
-    <script type="module" src="js/jquery.js"></script>
-    <script type="module" src="js/inputmask.js"></script>
-    <script type="module" src="js/magnific-popup.js"></script>
-    <script type="module" src="js/sweet-scroll.js"></script>
-    <script type="module" src="js/main.js"></script>
-    <script type="module" src="js/demo-call.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/inputmask.js"></script>
+    <script src="js/magnific-popup.js"></script>
+    <script src="js/sweet-scroll.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/demo-call.js"></script>
   </body>
 </html>

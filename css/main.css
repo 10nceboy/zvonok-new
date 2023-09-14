@@ -5851,12 +5851,18 @@ input:-webkit-autofill:active {
 }
 
 .confirm-card-right {
-  padding: 0 35px;
+  padding: 0 25px;
   color: #5A5A5B;
 }
 @media screen and (max-width: 991.98px) {
   .confirm-card-right {
-    padding: 40px 15px 35px;
+    padding: 15px 15px 35px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .confirm-card-right {
+    padding:0 15px 0px 35px;
   }
 }
 
@@ -5930,11 +5936,25 @@ input:-webkit-autofill:active {
 @media screen and (max-width: 991.98px) {
   .confirm-card-cost {
     margin-left: 10px;
+
   }
 }
-@media screen and (max-width: 767.98px) {
+@media screen and (max-width: 767.98px)  {
   .confirm-card-cost {
     font-size: 15px;
+  }
+}
+
+
+@media screen and (min-width: 992px) and (max-width:1200px)  {
+  .confirm-card-cost {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 1200px)  {
+  .confirm-card-cost {
+    font-size: 20px;
   }
 }
 
@@ -5972,12 +5992,21 @@ input:-webkit-autofill:active {
   margin-bottom: 40px;
   background-color: #F5F5F5;
   border-radius: 5px;
+
 }
 @media screen and (max-width: 767.98px) {
   .confirm-card-example {
     padding: 10px;
     margin-bottom: 30px;
     font-size: 12px;
+    min-width:270px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .confirm-card-example {
+  
+    min-width:500px;
   }
 }
 
@@ -6026,14 +6055,14 @@ input:-webkit-autofill:active {
   }
 }
 
-.confirm-card-instruction {
+.confirm-card-detail {
   font-weight: 600;
   transition: color 0.3s ease;
 }
-.confirm-card-instruction:hover, .confirm-card-instruction:focus {
+.confirm-card-detail:hover, .confirm-card-detail:focus {
   color: #F25F2D;
 }
-.confirm-card-instruction:active {
+.confirm-card-detail:active {
   color: #E45726;
 }
 
