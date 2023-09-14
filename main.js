@@ -1,3 +1,3 @@
-import "~/bootstrap";
-import "~/demo-calls";
-import "~/swiper";
+import '~/bootstrap';
+import '~/demo-calls';
+import '~/swiper';
