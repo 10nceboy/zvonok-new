@@ -8,9 +8,6 @@
   }
 
 
-  
-
-
   @media screen and (min-width: 1200px) {
     .confirm-card-wrapper-step4 {
      
@@ -60,7 +57,7 @@
 
 
 .confirm-card-instruction {
-    color: var(--color-text-light, #5A5A5B);
+color: var(--color-text-light, #5A5A5B);
 font-size: 15px;
 font-style: normal;
 font-weight: 400;
@@ -70,3 +67,4 @@ line-height: 140%;
 .confirm-instruction-icon {
 margin-right:8px;
 }
+

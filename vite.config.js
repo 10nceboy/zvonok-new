@@ -31,7 +31,8 @@ export default defineConfig({
         incoming: resolve(__dirname, 'incoming.html'),
         seo: resolve(__dirname, 'seo-page.html'),
         price: resolve(__dirname, 'price.html'),
-        videoinstruction: resolve(__dirname, 'videoinstruction.html')
+        videoinstruction: resolve(__dirname, 'videoinstruction.html'),
+        redial: resolve(__dirname, 'auto-redial.html')
       }
     }
   }

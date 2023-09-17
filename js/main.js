@@ -278,8 +278,8 @@ function showMore(evt) {
   document.addEventListener('DOMContentLoaded', function () {
     let cookiesBanner = document.querySelector('.cookie-toast');
     if (cookiesBanner) {
-      let cookiesSubmitBtn = cookiesBanner.querySelector('.cookies-submit');
-      cookiesSubmitBtn.addEventListener('click', (evt) => {
+      let cookiesSubmitBtn = cookiesBanner?.querySelector('.cookies-submit');
+      cookiesSubmitBtn?.addEventListener('click', (evt) => {
         setCookie('banner', 1, { expires: 86400 * 3 * 1000 });
       });
     }
@@ -326,7 +326,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
   document.addEventListener('scroll', hidePopovers);
   let el = document.querySelector('.btn-up');
   if (window.scrollY > 400) {
-    el.classList.remove('d-none');
+    el?.classList.remove('d-none');
   } else {
     el.classList.add('d-none');
   }
@@ -343,6 +343,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
         const scrollY = window.scrollY || document.documentElement.scrollTop;
         scrollY > 400 ? this.show() : this.hide();
       });
+
       document.querySelector('.btn-up').onclick = () => {
         window.scrollTo({
           top: 0,
@@ -352,8 +353,6 @@ document.addEventListener('DOMContentLoaded', function (event) {
       };
     }
   };
-
-  btnUp.addEventListener();
 });
 
 // Custom select && city select && audio player
